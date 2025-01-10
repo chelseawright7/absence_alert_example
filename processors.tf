@@ -1,4 +1,4 @@
-resource "mezmo_route_processor" "processor_fbd68680_cf79_11ef_9ad8_366eacd66e4a" {
+resource "mezmo_route_processor" "route_processor_01" {
   conditionals = [{
     expressions = [{
       field    = ".line"
@@ -20,7 +20,7 @@ resource "mezmo_route_processor" "processor_fbd68680_cf79_11ef_9ad8_366eacd66e4a
     logical_operation = "AND"
   }]
   title       = "5 Minute absence"
-  inputs      = [mezmo_agent_source.source_08362990_6ba1_11ef_b64b_2abb47387645.id]
-  pipeline_id = mezmo_pipeline.pipeline_f251a348_e63a_11ee_a51f_562c83a610e2.id
+  inputs      = [mezmo_demo_source.json_logs.id]
+  pipeline_id = mezmo_pipeline.absence_alert_pipeline.id
 }
 

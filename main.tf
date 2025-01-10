@@ -12,6 +12,6 @@ provider "mezmo" {
   auth_key = var.pipeline_auth_key
 }
 
-resource "mezmo_pipeline" "pipeline_f251a348_e63a_11ee_a51f_562c83a610e2" {
+resource "mezmo_pipeline" "absence_alert_pipeline" {
   title = "absence_alert_5min"
 }
