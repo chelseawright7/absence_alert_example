@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+terraform import mezmo_absence_alert.alert_8174605a_cf7f_11ef_873f_366eacd66e4a f251a348-e63a-11ee-a51f-562c83a610e2/8174605a-cf7f-11ef-873f-366eacd66e4a
+terraform import mezmo_agent_source.source_08362990_6ba1_11ef_b64b_2abb47387645 f251a348-e63a-11ee-a51f-562c83a610e2/08362990-6ba1-11ef-b64b-2abb47387645
+terraform import mezmo_blackhole_destination.destination_01790442_6ba1_11ef_adfa_2abb47387645 f251a348-e63a-11ee-a51f-562c83a610e2/01790442-6ba1-11ef-adfa-2abb47387645
+terraform import mezmo_pipeline.pipeline_f251a348_e63a_11ee_a51f_562c83a610e2 f251a348-e63a-11ee-a51f-562c83a610e2
+terraform import mezmo_route_processor.processor_fbd68680_cf79_11ef_9ad8_366eacd66e4a f251a348-e63a-11ee-a51f-562c83a610e2/fbd68680-cf79-11ef-9ad8-366eacd66e4a
